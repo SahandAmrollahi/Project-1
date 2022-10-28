@@ -1,0 +1,1034 @@
+@media only screen and (min-width: 1200px) {
+    section.wrapper {
+        width: 100%;
+    }
+
+    section.wrapper > div.menu {
+        width: inherit;
+        height: 140px;
+    }
+
+    /*   menu top   */
+    section.wrapper > div.menu > div.menutop {
+        width: inherit;
+        height: 50px;
+        background-color: #00a2e8;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    section.wrapper > div.menu > div.menutop > div:nth-of-type(1) {
+        width: 40%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 30px;
+        box-sizing: border-box;
+        text-transform: capitalize;
+    }
+
+    section.wrapper > div.menu > div.menutop > div:nth-of-type(1) > img {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.wrapper > div.menu > div.menutop > div:nth-of-type(1) > span:nth-of-type(1) {
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+
+    section.wrapper > div.menu > div.menutop > div:nth-of-type(1) > span {
+        font-size: 12px;
+        color: white;
+    }
+
+
+    section.wrapper > div.menu > div.menutop > div:nth-of-type(2) {
+        width: 60%;
+        height: 50px;
+
+    }
+
+    section.wrapper > div.menu > div.menutop > div:nth-of-type(2) > nav {
+        width: 100%;
+        height: inherit;
+
+    }
+
+    section.wrapper > div.menu > div.menutop > div:nth-of-type(2) > nav > ul {
+        width: 100%;
+        height: inherit;
+        list-style: none;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding-left: 45px;
+        box-sizing: border-box;
+    }
+
+    section.wrapper > div.menu > div.menutop > div:nth-of-type(2) > nav > ul > li {
+        padding: 0 15px;
+        display: flex;
+        height: 50px;
+        align-items: center;
+    }
+
+    section.wrapper > div.menu > div.menutop > div:nth-of-type(2) > nav > ul > li > a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 12px;
+        color: white;
+    }
+
+    section.wrapper > div.menu > div.menutop > div:nth-of-type(2) > nav > ul > li:nth-last-of-type(2) {
+        padding-right: 0px;
+    }
+
+    section.wrapper > div.menu > div.menutop > div:nth-of-type(2) > nav > ul > li:nth-last-of-type(1) {
+        padding-left: 5px;
+    }
+
+
+    section.wrapper > div.menu > div.menutop > div:nth-of-type(2) > nav > ul > li > img {
+        width: 22px;
+        height: 22px;
+        color: white;
+    }
+
+    /*      end menu top       */
+    /*   start menu bottom   */
+    section.wrapper > div.menu > div.menubottom {
+        width: inherit;
+        height: 90px;
+        background-color: #ffffff;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+
+    section.wrapper > div.menu > div.menubottom > div:nth-of-type(1) {
+        width: 20%;
+        height: inherit;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    section.wrapper > div.menu > div.menubottom > div:nth-of-type(1) > h1 {
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+    section.wrapper > div.menu > div.menubottom > div:nth-of-type(1) > h1::first-letter {
+        color: #00a2e8;
+
+    }
+
+    section.wrapper > div.menu > div.menubottom > div:nth-of-type(2) {
+        width: 80%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    section.wrapper > div.menu > div.menubottom > div:nth-of-type(2) > nav {
+        width: 100%;
+        height: 90px;
+    }
+
+    section.wrapper > div.menu > div.menubottom > div:nth-of-type(2) > nav > ul {
+        width: 100%;
+        height: 90px;
+        list-style: none;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        padding-right: 40px;
+        box-sizing: border-box;
+    }
+
+    section.wrapper > div.menu > div.menubottom > div:nth-of-type(2) > nav > ul > li {
+        width: auto;
+        height: auto;
+        padding: 0 15px;
+    }
+
+    section.wrapper > div.menu > div.menubottom > div:nth-of-type(2) > nav > ul > li > a {
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+    section.wrapper > div.menu > div.menubottom > div:nth-of-type(2) > nav > ul > li:nth-of-type(1) > a {
+        color: #00a2e8;
+
+    }
+
+    section.wrapper > div.menu > div.menubottom > div:nth-of-type(2) > nav > ul > li:nth-last-of-type(1) {
+        padding-left: 100px;
+        box-sizing: border-box;
+    }
+
+    section.wrapper > div.menu > div.menubottom > div:nth-of-type(2) > nav > ul > li:nth-last-of-type(1) > a {
+        color: white;
+    }
+
+    /*   end menu bottom   */
+    /*   start make slider   */
+    div.slider {
+        width: 100%;
+        height: 700px;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: inherit;
+    }
+
+    .swiper-slide > div.cover {
+        position: absolute;
+        width: 60%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide > div.cover > h1 {
+        color: white;
+        padding: 20px 0px;
+        box-sizing: border-box;
+        font-size: 50px;
+    }
+
+    .swiper-slide > div.cover > p {
+        width: 55%;
+        padding: 20px;
+        box-sizing: border-box;
+        color: white;
+        font-size: 17px;
+        line-height: 40px;
+    }
+
+    /*   end make slider   */
+    /*   start make about   */
+    div.about {
+        width: 100%;
+        padding: 100px 180px;
+        box-sizing: border-box;
+    }
+
+    div.about > div:nth-of-type(1) {
+        width: 100%;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.about > div:nth-of-type(1) > span {
+        font-size: 40px;
+        padding: 6px;
+        box-sizing: border-box;
+        text-transform: uppercase;
+    }
+
+    div.about > div:nth-of-type(1) > span:nth-of-type(2) {
+        color: #00a2e8;
+    }
+
+    div.about > div:nth-of-type(2) {
+        width: 100%;
+        display: flex;
+        text-align: center;
+
+    }
+
+    div.about > div:nth-of-type(2) > div {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    div.about > div:nth-of-type(2) > div > img {
+        margin-bottom: 45px;
+        width: 50px;
+        height: 50px;
+    }
+
+    div.about > div:nth-of-type(2) > div > h3 {
+        width: inherit;
+        height: 10px;
+        font-size: 20px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    div.about > div:nth-of-type(2) > div > p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    /*   end make aout   */
+    /*   start make collection   */
+    div.collection {
+        width: 100%;
+        height: 600px;
+        background-image: url("../../images/collection/asli.png");
+        background-size: cover;
+        position: relative;
+    }
+
+    div.collection > div {
+        width: inherit;
+        height: inherit;
+        position: absolute;
+        background: rgb(0, 0, 0, 0.8);
+    }
+
+    div.collection > div > div.top {
+        width: 100%;
+        height: 200px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+    }
+
+    div.collection > div > div.top > h1 {
+        width: inherit;
+        height: 200px;
+        line-height: 200px;
+    }
+
+    div.collection > div > div.top > h1 > span {
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    div.collection > div > div.top > h1 > span:nth-of-type(1) {
+        color: #00a2e8;
+    }
+
+
+    div.collection > div > div.bottom {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    div.collection > div > div.bottom > div {
+        width: 250px;
+        height: 300px;
+        margin: 0 20px;
+        transition: all 300ms linear;
+
+    }
+
+    div.collection > div > div.bottom > div > div.first {
+        width: inherit;
+        height: 260px;
+        background: darkgray;
+    }
+
+    div.collection > div > div.bottom > div > div.second {
+        width: inherit;
+        height: 40px;
+        background: crimson;
+        display: flex;
+        flex-flow: row wrap;
+        line-height: 40px;
+    }
+
+    div.collection > div > div.bottom > div:nth-of-type(1) > div.first {
+        background-image: url("../../images/collection/اسپارتاکوس.jpg");
+        background-size: cover;
+    }
+
+    div.collection > div > div.bottom > div:nth-of-type(2) > div.first {
+        background-image: url("../../images/collection/بویکا.jpg");
+        background-size: cover;
+    }
+
+    div.collection > div > div.bottom > div:nth-of-type(3) > div.first {
+        background-image: url("../../images/collection/مک کانر.jpg");
+        background-size: cover;
+    }
+
+    div.collection > div > div.bottom > div:nth-of-type(4) > div.first {
+        background-image: url("../../images/collection/تایسون.jpg");
+        background-size: cover;
+
+    }
+
+    div.collection > div > div.bottom > div > div.second > div:nth-of-type(1) {
+        width: 80%;
+        height: inherit;
+        background-color: #35312e;
+    }
+
+    div.collection > div > div.bottom > div > div.second > div:nth-of-type(1) {
+        padding-left: 10px;
+        box-sizing: border-box;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    div.collection > div > div.bottom > div > div.second > div:nth-of-type(2) {
+        width: 20%;
+        text-align: center;
+        background-color: #948a85;
+    }
+
+    div.collection > div > div.bottom > div:nth-of-type(2) > div.second > div:nth-of-type(1) {
+        background-color: #378cc4;
+    }
+
+    div.collection > div > div.bottom > div:nth-of-type(2) > div.second > div:nth-of-type(2) {
+        background-color: #86c3dd;
+    }
+
+    div.collection > div > div.bottom > div:hover {
+        border: 2px solid darkgray;
+    }
+
+    /*   end make collection   */
+    /*   start make sale   */
+    div.sale {
+        width: 100%;
+        height: 300px;
+        background-color: #378cc4;
+        text-align: center;
+        color: white;
+    }
+
+    div.sale > div {
+        width: inherit;
+        height: 150px;
+    }
+
+    div.sale > div:nth-of-type(1) {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 33px;
+    }
+
+    div.sale > div:nth-of-type(2) {
+        font-size: 18px;
+    }
+
+    div.sale > div:nth-of-type(2) > h1 {
+        margin-top: 5px;
+    }
+
+    /*   end make sale   */
+    /*   start make products   */
+    div.products {
+        width: 100%;
+        height: 850px;
+        background-image: url("../../images/products/asli.png");
+        background-size: cover;
+        position: relative;
+    }
+
+    div.products > div {
+        width: inherit;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+    }
+
+    div.products > div > div.top {
+        width: 100%;
+        height: 250px;
+        text-align: center;
+    }
+
+    div.products > div > div.top > h1 {
+        width: auto;
+        height: 250px;
+        display: inline-block;
+        line-height: 250px;
+        font-size: 48px;
+    }
+
+    div.products > div > div.top > h1 {
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    div.products > div > div.top > h1:nth-of-type(1) {
+        color: #378cc4;
+    }
+
+    div.products > div > div.bottom {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    div.products > div > div.bottom > div.left, div.products > div > div.bottom > div.center, div.products > div > div.bottom > div.right {
+        width: 350px;
+        height: 400px;
+        background-color: crimson;
+        margin: 20px;
+        transition: all 300ms linear;
+    }
+
+    div.products > div > div.bottom > div.left > div:nth-of-type(1) {
+        width: inherit;
+        height: 87%;
+        background-image: url("../../images/products/تایسون.jpg");
+        background-size: cover;
+    }
+
+    div.products > div > div.bottom > div.left > div:nth-of-type(2) {
+        width: inherit;
+        height: 13%;
+        background-color: #35312e;
+        display: flex;
+    }
+
+    div.products > div > div.bottom > div.center > div:nth-of-type(1) {
+        width: inherit;
+        height: 87%;
+        background-image: url("../../images/products/بویکا.jpg");
+        background-size: cover;
+    }
+
+    div.products > div > div.bottom > div.center > div:nth-of-type(2) {
+        width: inherit;
+        height: 13%;
+        background-color: #35312e;
+        display: flex;
+    }
+
+    div.products > div > div.bottom > div.right > div:nth-of-type(1) {
+        width: inherit;
+        height: 87%;
+        background-image: url("../../images/products/اسپارتاکوس.jpg");
+        background-size: cover;
+    }
+
+    div.products > div > div.bottom > div.right > div:nth-of-type(2) {
+        width: inherit;
+        height: 13%;
+        background-color: #35312e;
+        display: flex;
+
+        /*    childs   */
+    }
+
+    div.products > div > div.bottom > div.left > div:nth-of-type(2) > div.one {
+        width: 80%;
+        height: 52px;
+        background-color: #35312e;
+    }
+
+    div.products > div > div.bottom > div.left > div:nth-of-type(2) > div.tow {
+        width: 20%;
+        height: 52px;
+        background-color: #948a85;
+    }
+
+    div.products > div > div.bottom > div.center > div:nth-of-type(2) > div.one {
+        width: 80%;
+        height: 52px;
+        background-color: #378cc4;
+    }
+
+    div.products > div > div.bottom > div.center > div:nth-of-type(2) > div.tow {
+        width: 20%;
+        height: 52px;
+        background-color: #86c3dd;
+    }
+
+    div.products > div > div.bottom > div.right > div:nth-of-type(2) > div.one {
+        width: 80%;
+        height: 52px;
+        background-color: #35312e;
+
+    }
+
+    div.products > div > div.bottom > div.right > div:nth-of-type(2) > div.tow {
+        width: 20%;
+        height: 52px;
+        background-color: #948a85;
+    }
+
+    div.products > div > div.bottom > div.left > div:nth-of-type(2) > div.one > h1 {
+        width: 100%;
+        height: 52px;
+        line-height: 52px;
+        margin-left: 10px;
+    }
+
+    div.products > div > div.bottom > div.left > div:nth-of-type(2) > div.tow > h1 {
+        width: 100%;
+        height: 52px;
+        line-height: 52px;
+        text-align: center;
+    }
+
+    div.products > div > div.bottom > div.center > div:nth-of-type(2) > div.one > h1 {
+        width: 100%;
+        height: 52px;
+        line-height: 52px;
+        margin-left: 10px;
+    }
+
+    div.products > div > div.bottom > div.center > div:nth-of-type(2) > div.tow > h1 {
+        width: 100%;
+        height: 52px;
+        line-height: 52px;
+        text-align: center;
+    }
+
+    div.products > div > div.bottom > div.right > div:nth-of-type(2) > div.one > h1 {
+        width: 100%;
+        height: 52px;
+        line-height: 52px;
+        margin-left: 10px;
+    }
+
+    div.products > div > div.bottom > div.right > div:nth-of-type(2) > div.tow > h1 {
+        width: 100%;
+        height: 52px;
+        line-height: 52px;
+        text-align: center;
+    }
+
+    div.products > div > div.bottom > div.left:hover, div.products > div > div.bottom > div.center:hover, div.products > div > div.bottom > div.right:hover {
+        box-shadow: 5px 5px 5px #86c3dd;
+    }
+
+    /*   end make products   */
+
+    /*   start make review   */
+    div.review {
+        width: 100%;
+        height: auto;
+        padding: 90px 50px 100px 50px;
+        box-sizing: border-box;
+        background-color: white;
+    }
+
+    div.review > div.top {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        font-size: 27px;
+    }
+
+    div.review > div.top > h1 {
+        width: auto;
+        height: inherit;
+        display: inline-block;
+        padding: 7px;
+        box-sizing: border-box;
+    }
+
+    div.review > div.top > h1:nth-of-type(1) {
+        color: #56504d;
+    }
+
+    div.review > div.top > h1:nth-of-type(2) {
+        color: #378cc4;
+    }
+
+    div.review > div.bottom {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+    div.review > div.bottom > div.left, div.review > div.bottom > div.center, div.review > div.bottom > div.right {
+        width: 30%;
+        height: inherit;
+        margin: 20px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    /*         circles           */
+    div.review > div.bottom > div.left > div {
+        margin: 20px;
+        width: 250px;
+        height: 250px;
+        background-color: #736b66;
+        border-radius: 50%;
+    }
+
+    div.review > div.bottom > div.left > p {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        color: #776f6a;
+    }
+
+    div.review > div.bottom > div.left > h3 {
+        margin-top: 15px;
+        color: #378cc4;
+    }
+
+    div.review > div.bottom > div.left > h4 {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+
+    div.review > div.bottom > div.left > section {
+        margin-top: 30px;
+    }
+
+
+    div.review>div.bottom>div.center>div{
+        margin: 20px;
+        width: 250px;
+        height: 250px;
+        background-color: #736b66;
+        border-radius: 50%;
+    }
+    div.review>div.bottom>div.center>p{
+        width: 100%;
+        height:auto ;
+        text-align: center;
+        color: #776f6a;
+    }
+    div.review>div.bottom>div.center>h3{
+        margin-top: 15px;
+        color: #378cc4;
+    }
+    div.review>div.bottom>div.center>h4{
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    div.review>div.bottom>div.center>section{
+        margin-top: 30px;
+    }
+
+
+
+    div.review>div.bottom>div.right>div{
+        margin: 20px;
+        width: 250px;
+        height: 250px;
+        background-color: #736b66;
+        border-radius: 50%;
+    }
+    div.review>div.bottom>div.right>p{
+        width: 100%;
+        height:auto ;
+        text-align: center;
+        color: #776f6a;
+    }
+    div.review>div.bottom>div.right>h3{
+        margin-top: 15px;
+        color: #378cc4;
+    }
+    div.review>div.bottom>div.right>h4{
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    div.review>div.bottom>div.right>section{
+        margin-top: 30px;
+    }
+
+
+    /*  end make review  */
+
+    /*  start make order  */
+
+    div.order{
+        width: 100%;
+        height: auto;
+        background-image: url("../../images/order/one.png");
+        background-color: #378cc4;
+    }
+    div.order>div.top{
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        line-height: 200px;
+        font-size: 23px;
+    }
+    div.order>div.top>h1>span{
+        color: #56504d;
+    }
+    div.order>div.top>h1>span:nth-of-type(3){
+        color: white;
+    }
+    div.order>div.bottom{
+        width: 100%;
+        height: 450px;
+        margin-top: -50px;
+    }
+    div.order>div.bottom>form{
+        width: inherit;
+        height: inherit;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    div.order>div.bottom>form>input{
+        width: 500px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin: 30px;
+    }
+    div.order>div.bottom>form>input:nth-of-type(3){
+        background-color: #786960;
+        color: white;
+        width: 300px;
+        height: 80px;
+        font-size: 30px;
+        font-weight: bold;
+        transition: all 300ms linear;
+    }
+    div.order>div.bottom>form>input:nth-of-type(3):hover{
+        box-shadow: 2px 2px 5px black;
+    }
+
+        /*  end make order  */
+
+        /*  start make improve  */
+    div.improve{
+        width: 100%;
+        height: auto;
+        background-image: url("../../images/improve/asli.png");
+        background-color: black;
+    }
+    div.improve>h1{
+        width: 100%;
+        height: 150px;
+        color:white;
+        display: flex;
+        justify-content: center;
+        font-family: "Comic Sans MS";
+        font-size: 20px;
+    }
+    div.improve>h1:nth-of-type(1){
+        align-items: center;
+        padding-top: 30px;
+        box-sizing: border-box;
+        font-size: 40px;
+    }
+
+        /*  end make improve  */
+        /*  start make hype  */
+    div.hype{
+        width: 100%;
+        height: auto;
+        background-image: url("../../images/hype/asli.png");
+        background-color: #3e3c3c;
+        display: flex;
+    }
+    div.hype>div.left{
+        width: 50%;
+        height: 550px;
+    }
+    div.hype>div.right{
+        width: 50%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.hype>div.left>div:nth-of-type(1){
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    div.hype>div.left>div:nth-of-type(1)>h1::first-letter{
+        color: #378cc4;
+    }
+    div.hype>div.left>div:nth-of-type(1)>h1{
+        padding-right: 200px;
+        box-sizing: border-box;
+    }
+
+    
+    div.hype>div.left>div:nth-of-type(2){
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
+        color: white;
+
+
+    }
+    div.hype>div.left>div:nth-of-type(3){
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 100px;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    div.hype>div.left>div:nth-of-type(2)>div.top{
+        width: 50%;
+        height: 50px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    div.hype>div.left>div:nth-of-type(2)>div.bottom{
+        width: 50%;
+        height: 150px;
+
+    }
+
+    div.hype>div.left>div:nth-of-type(2)>div.bottom{
+        padding-right: 200px;
+        box-sizing: border-box;
+    }
+    div.hype>div.left>div:nth-of-type(3)>img{
+        width: 35px;
+        height: 35px;
+        margin: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+    }
+    div.hype>div.left>div:nth-of-type(3)>img:hover{
+        border: 1px solid #378cc4;
+    }
+
+    div.hype>div.right>div.top{
+        width: 70%;
+        height: 150px;
+
+    }
+    div.hype>div.right>div.center{
+        width: 70%;
+        height: 200px;
+
+    }
+    div.hype>div.right>div.bottom {
+        width: 70%;
+        height: 200px;
+    }
+    div.hype>div.right>div.top>form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+
+    div.hype>div.right>div.top>form>input{
+        width: 250px;
+        height: 60px;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+
+    div.hype>div.right>div.center>form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.hype>div.right>div.center>form>input{
+        width: 525px;
+        height: 150px;
+        padding-left: 10px;
+        padding-bottom: 110px;
+        box-sizing: border-box;
+    }
+    div.hype>div.right>div.bottom>form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    div.hype>div.right>div.bottom>form>input{
+        width: 150px;
+        height: 50px;
+        margin-right: 30px;
+        background-color: #378cc4;
+        color: white;
+        border: none;
+        transition: all 300ms linear;
+    }
+    div.hype>div.right>div.bottom>form>input:hover{
+        box-shadow: 2px 2px 5px darkgray;
+    }
+
+        /*  end make hype  */
+
+
+        /*  start make reserved  */
+    div.reserved{
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        text-align: center;
+        line-height: 60px;
+
+    }
+        /*  end make reserved  */
+
+
+}
+-
+
+
